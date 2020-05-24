@@ -1,0 +1,46 @@
+/*
+Theme Name: Brahmayya
+ */
+
+@charset "utf-8";
+/* CSS Document */
+
+.contentContainer ul.commonList{
+	padding-bottom: 10px;
+}
+.breadCrumb ul li{
+	text-transform: captalize;
+}
+.errorBox{/*display: none;*/}
+#thankyou p {font-size: 16px;}
+#subPage .menuWrap {border-bottom: none;}
+
+@media screen and (max-width:640px){
+.fileUp .formInnerField{ border: none; padding:0 !important;}
+.file-upload-wrapper{ border:1px solid #aaaaaa; padding:5px 55px 5px 15px}
+.file-upload-button{ top:5px;}
+/*.introWrap {padding : 0px;}*/
+}
+.checkboxradio-label{
+	font-size: 11px;
+}
+.sepPage a.active {
+    background-color: #0aaaaa;
+		color: white;
+    border-radius: 100%;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 11px;
+    float: none;
+    line-height: 22px;
+    height: 20px;
+		width: 20px;
+    text-align: center;
+}
+
+.pager {
+    margin-right: 10px;
+}
+.news-widget ul li {
+  height: 110px;
+}

@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+#career_captcha,#contact_captcha { display : none; }
+@media (max-width:768px){
+.textArea{ height:100px !important;}
+}
+
+a { color:#0aaaaa; }
+.sideBarList a { color:#000; }
